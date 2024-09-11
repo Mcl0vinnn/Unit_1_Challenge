@@ -1,5 +1,9 @@
 
-11000 = v
+import math
+
+speed = int(input('Enter the speed: '))
+
+
 
 
 
