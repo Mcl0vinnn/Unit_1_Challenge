@@ -6,8 +6,8 @@ try:
     friend = 1.65
     x = int(input('What is the angle: '))
     x = math.degrees (x * 0.75)
-    
-    tree = math.tan (x * 1.65)
+
+    tree = math.tan (x * friend)
     
     print ('This is the intital height of the tree', tree)
 except (ZeroDivisionError,ValueError):
