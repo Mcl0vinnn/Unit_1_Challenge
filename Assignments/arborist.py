@@ -6,6 +6,10 @@ try:
     friend = 1.65
     x = int(input('What is the angle: '))
     x = math.degrees (x * 0.75)
+    y = int(input('Enter the distance: '))
+    
+
+
 
     tree = math.tan (x * friend)
     
